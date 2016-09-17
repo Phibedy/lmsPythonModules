@@ -21,17 +21,17 @@
     os=Linux
 
 [full_requires]
-    Boost/1.60.0@lasote/stable:c4df0be554903c44e6c8dfefcb3478121c08b785
-    bzip2/1.0.6@lasote/stable:3a5f72c8cd50641b8efa6ed13e6914c6ced2747c
-    zlib/1.2.8@lasote/stable:755fc07adbed235a7d3eadec4b6882d4912f09bc
+    Boost/1.60.0@lasote/stable:87a6985fb1908109eaaba4c2838287defae1271c
+    bzip2/1.0.6@lasote/stable:1dc495498881745765697cb6dda04bd63bec32e0
+    zlib/1.2.8@lasote/stable:a79ecbb5554da8510d2c9d7856daeb24de6be0d9
 
 [full_options]
     Boost:fPIC=False
     Boost:header_only=False
-    Boost:shared=False
+    Boost:shared=True
     bzip2:fPIC=True
-    bzip2:shared=False
-    zlib:shared=False
+    bzip2:shared=True
+    zlib:shared=True
 
 [scope]
     dev=True

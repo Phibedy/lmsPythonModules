@@ -1,18 +1,18 @@
-set(CONAN_BOOST_ROOT "/home/phibedy/.conan/data/Boost/1.60.0/lasote/stable/package/c4df0be554903c44e6c8dfefcb3478121c08b785")
-set(CONAN_INCLUDE_DIRS_BOOST "/home/phibedy/.conan/data/Boost/1.60.0/lasote/stable/package/c4df0be554903c44e6c8dfefcb3478121c08b785/include")
-set(CONAN_LIB_DIRS_BOOST "/home/phibedy/.conan/data/Boost/1.60.0/lasote/stable/package/c4df0be554903c44e6c8dfefcb3478121c08b785/lib")
-set(CONAN_BIN_DIRS_BOOST "/home/phibedy/.conan/data/Boost/1.60.0/lasote/stable/package/c4df0be554903c44e6c8dfefcb3478121c08b785/bin")
+set(CONAN_BOOST_ROOT "/home/phibedy/.conan/data/Boost/1.60.0/lasote/stable/package/87a6985fb1908109eaaba4c2838287defae1271c")
+set(CONAN_INCLUDE_DIRS_BOOST "/home/phibedy/.conan/data/Boost/1.60.0/lasote/stable/package/87a6985fb1908109eaaba4c2838287defae1271c/include")
+set(CONAN_LIB_DIRS_BOOST "/home/phibedy/.conan/data/Boost/1.60.0/lasote/stable/package/87a6985fb1908109eaaba4c2838287defae1271c/lib")
+set(CONAN_BIN_DIRS_BOOST "/home/phibedy/.conan/data/Boost/1.60.0/lasote/stable/package/87a6985fb1908109eaaba4c2838287defae1271c/bin")
 set(CONAN_LIBS_BOOST boost_unit_test_framework boost_prg_exec_monitor boost_test_exec_monitor boost_atomic boost_container boost_date_time boost_exception boost_filesystem boost_graph boost_iostreams boost_locale boost_log_setup boost_log boost_math_c99 boost_math_c99f boost_math_c99l boost_math_tr1 boost_math_tr1f boost_math_tr1l boost_program_options boost_random boost_regex boost_wserialization boost_serialization boost_signals boost_coroutine boost_context boost_wave boost_timer boost_thread boost_chrono boost_system)
-set(CONAN_DEFINES_BOOST -DBOOST_USE_STATIC_LIBS)
+set(CONAN_DEFINES_BOOST -DBOOST_ALL_DYN_LINK)
 set(CONAN_CXX_FLAGS_BOOST "")
 set(CONAN_SHARED_LINKER_FLAGS_BOOST "")
 set(CONAN_EXE_LINKER_FLAGS_BOOST "")
 set(CONAN_C_FLAGS_BOOST "")
 
-set(CONAN_BZIP2_ROOT "/home/phibedy/.conan/data/bzip2/1.0.6/lasote/stable/package/3a5f72c8cd50641b8efa6ed13e6914c6ced2747c")
-set(CONAN_INCLUDE_DIRS_BZIP2 "/home/phibedy/.conan/data/bzip2/1.0.6/lasote/stable/package/3a5f72c8cd50641b8efa6ed13e6914c6ced2747c/include")
-set(CONAN_LIB_DIRS_BZIP2 "/home/phibedy/.conan/data/bzip2/1.0.6/lasote/stable/package/3a5f72c8cd50641b8efa6ed13e6914c6ced2747c/lib")
-set(CONAN_BIN_DIRS_BZIP2 "/home/phibedy/.conan/data/bzip2/1.0.6/lasote/stable/package/3a5f72c8cd50641b8efa6ed13e6914c6ced2747c/bin")
+set(CONAN_BZIP2_ROOT "/home/phibedy/.conan/data/bzip2/1.0.6/lasote/stable/package/1dc495498881745765697cb6dda04bd63bec32e0")
+set(CONAN_INCLUDE_DIRS_BZIP2 "/home/phibedy/.conan/data/bzip2/1.0.6/lasote/stable/package/1dc495498881745765697cb6dda04bd63bec32e0/include")
+set(CONAN_LIB_DIRS_BZIP2 "/home/phibedy/.conan/data/bzip2/1.0.6/lasote/stable/package/1dc495498881745765697cb6dda04bd63bec32e0/lib")
+set(CONAN_BIN_DIRS_BZIP2 "/home/phibedy/.conan/data/bzip2/1.0.6/lasote/stable/package/1dc495498881745765697cb6dda04bd63bec32e0/bin")
 set(CONAN_LIBS_BZIP2 bz2)
 set(CONAN_DEFINES_BZIP2 )
 set(CONAN_CXX_FLAGS_BZIP2 "")
@@ -20,10 +20,10 @@ set(CONAN_SHARED_LINKER_FLAGS_BZIP2 "")
 set(CONAN_EXE_LINKER_FLAGS_BZIP2 "")
 set(CONAN_C_FLAGS_BZIP2 "")
 
-set(CONAN_ZLIB_ROOT "/home/phibedy/.conan/data/zlib/1.2.8/lasote/stable/package/755fc07adbed235a7d3eadec4b6882d4912f09bc")
-set(CONAN_INCLUDE_DIRS_ZLIB "/home/phibedy/.conan/data/zlib/1.2.8/lasote/stable/package/755fc07adbed235a7d3eadec4b6882d4912f09bc/include")
-set(CONAN_LIB_DIRS_ZLIB "/home/phibedy/.conan/data/zlib/1.2.8/lasote/stable/package/755fc07adbed235a7d3eadec4b6882d4912f09bc/lib")
-set(CONAN_BIN_DIRS_ZLIB "/home/phibedy/.conan/data/zlib/1.2.8/lasote/stable/package/755fc07adbed235a7d3eadec4b6882d4912f09bc/bin")
+set(CONAN_ZLIB_ROOT "/home/phibedy/.conan/data/zlib/1.2.8/lasote/stable/package/a79ecbb5554da8510d2c9d7856daeb24de6be0d9")
+set(CONAN_INCLUDE_DIRS_ZLIB "/home/phibedy/.conan/data/zlib/1.2.8/lasote/stable/package/a79ecbb5554da8510d2c9d7856daeb24de6be0d9/include")
+set(CONAN_LIB_DIRS_ZLIB "/home/phibedy/.conan/data/zlib/1.2.8/lasote/stable/package/a79ecbb5554da8510d2c9d7856daeb24de6be0d9/lib")
+set(CONAN_BIN_DIRS_ZLIB "/home/phibedy/.conan/data/zlib/1.2.8/lasote/stable/package/a79ecbb5554da8510d2c9d7856daeb24de6be0d9/bin")
 set(CONAN_LIBS_ZLIB z)
 set(CONAN_DEFINES_ZLIB )
 set(CONAN_CXX_FLAGS_ZLIB "")
@@ -34,22 +34,22 @@ set(CONAN_C_FLAGS_ZLIB "")
 set(CONAN_PACKAGE_NAME None)
 set(CONAN_PACKAGE_VERSION None)
 set(CONAN_DEPENDENCIES Boost bzip2 zlib)
-set(CONAN_INCLUDE_DIRS "/home/phibedy/.conan/data/Boost/1.60.0/lasote/stable/package/c4df0be554903c44e6c8dfefcb3478121c08b785/include"
-			"/home/phibedy/.conan/data/bzip2/1.0.6/lasote/stable/package/3a5f72c8cd50641b8efa6ed13e6914c6ced2747c/include"
-			"/home/phibedy/.conan/data/zlib/1.2.8/lasote/stable/package/755fc07adbed235a7d3eadec4b6882d4912f09bc/include" ${CONAN_INCLUDE_DIRS})
-set(CONAN_LIB_DIRS "/home/phibedy/.conan/data/Boost/1.60.0/lasote/stable/package/c4df0be554903c44e6c8dfefcb3478121c08b785/lib"
-			"/home/phibedy/.conan/data/bzip2/1.0.6/lasote/stable/package/3a5f72c8cd50641b8efa6ed13e6914c6ced2747c/lib"
-			"/home/phibedy/.conan/data/zlib/1.2.8/lasote/stable/package/755fc07adbed235a7d3eadec4b6882d4912f09bc/lib" ${CONAN_LIB_DIRS})
-set(CONAN_BIN_DIRS "/home/phibedy/.conan/data/Boost/1.60.0/lasote/stable/package/c4df0be554903c44e6c8dfefcb3478121c08b785/bin"
-			"/home/phibedy/.conan/data/bzip2/1.0.6/lasote/stable/package/3a5f72c8cd50641b8efa6ed13e6914c6ced2747c/bin"
-			"/home/phibedy/.conan/data/zlib/1.2.8/lasote/stable/package/755fc07adbed235a7d3eadec4b6882d4912f09bc/bin" ${CONAN_BIN_DIRS})
+set(CONAN_INCLUDE_DIRS "/home/phibedy/.conan/data/Boost/1.60.0/lasote/stable/package/87a6985fb1908109eaaba4c2838287defae1271c/include"
+			"/home/phibedy/.conan/data/bzip2/1.0.6/lasote/stable/package/1dc495498881745765697cb6dda04bd63bec32e0/include"
+			"/home/phibedy/.conan/data/zlib/1.2.8/lasote/stable/package/a79ecbb5554da8510d2c9d7856daeb24de6be0d9/include" ${CONAN_INCLUDE_DIRS})
+set(CONAN_LIB_DIRS "/home/phibedy/.conan/data/Boost/1.60.0/lasote/stable/package/87a6985fb1908109eaaba4c2838287defae1271c/lib"
+			"/home/phibedy/.conan/data/bzip2/1.0.6/lasote/stable/package/1dc495498881745765697cb6dda04bd63bec32e0/lib"
+			"/home/phibedy/.conan/data/zlib/1.2.8/lasote/stable/package/a79ecbb5554da8510d2c9d7856daeb24de6be0d9/lib" ${CONAN_LIB_DIRS})
+set(CONAN_BIN_DIRS "/home/phibedy/.conan/data/Boost/1.60.0/lasote/stable/package/87a6985fb1908109eaaba4c2838287defae1271c/bin"
+			"/home/phibedy/.conan/data/bzip2/1.0.6/lasote/stable/package/1dc495498881745765697cb6dda04bd63bec32e0/bin"
+			"/home/phibedy/.conan/data/zlib/1.2.8/lasote/stable/package/a79ecbb5554da8510d2c9d7856daeb24de6be0d9/bin" ${CONAN_BIN_DIRS})
 set(CONAN_LIBS boost_unit_test_framework boost_prg_exec_monitor boost_test_exec_monitor boost_atomic boost_container boost_date_time boost_exception boost_filesystem boost_graph boost_iostreams boost_locale boost_log_setup boost_log boost_math_c99 boost_math_c99f boost_math_c99l boost_math_tr1 boost_math_tr1f boost_math_tr1l boost_program_options boost_random boost_regex boost_wserialization boost_serialization boost_signals boost_coroutine boost_context boost_wave boost_timer boost_thread boost_chrono boost_system bz2 z ${CONAN_LIBS})
-set(CONAN_DEFINES -DBOOST_USE_STATIC_LIBS ${CONAN_DEFINES})
+set(CONAN_DEFINES -DBOOST_ALL_DYN_LINK ${CONAN_DEFINES})
 set(CONAN_CXX_FLAGS " ${CONAN_CXX_FLAGS}")
 set(CONAN_SHARED_LINKER_FLAGS " ${CONAN_SHARED_LINKER_FLAGS}")
 set(CONAN_EXE_LINKER_FLAGS " ${CONAN_EXE_LINKER_FLAGS}")
 set(CONAN_C_FLAGS " ${CONAN_C_FLAGS}")
-set(CONAN_CMAKE_MODULE_PATH "/home/phibedy/.conan/data/Boost/1.60.0/lasote/stable/package/c4df0be554903c44e6c8dfefcb3478121c08b785" "/home/phibedy/.conan/data/bzip2/1.0.6/lasote/stable/package/3a5f72c8cd50641b8efa6ed13e6914c6ced2747c" "/home/phibedy/.conan/data/zlib/1.2.8/lasote/stable/package/755fc07adbed235a7d3eadec4b6882d4912f09bc" ${CONAN_CMAKE_MODULE_PATH})
+set(CONAN_CMAKE_MODULE_PATH "/home/phibedy/.conan/data/Boost/1.60.0/lasote/stable/package/87a6985fb1908109eaaba4c2838287defae1271c" "/home/phibedy/.conan/data/bzip2/1.0.6/lasote/stable/package/1dc495498881745765697cb6dda04bd63bec32e0" "/home/phibedy/.conan/data/zlib/1.2.8/lasote/stable/package/a79ecbb5554da8510d2c9d7856daeb24de6be0d9" ${CONAN_CMAKE_MODULE_PATH})
 macro(conan_basic_setup)
     conan_check_compiler()
     conan_output_dirs_setup()

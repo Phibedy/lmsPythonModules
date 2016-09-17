@@ -1,17 +1,17 @@
 [includedirs]
-/home/phibedy/.conan/data/Boost/1.60.0/lasote/stable/package/c4df0be554903c44e6c8dfefcb3478121c08b785/include
-/home/phibedy/.conan/data/bzip2/1.0.6/lasote/stable/package/3a5f72c8cd50641b8efa6ed13e6914c6ced2747c/include
-/home/phibedy/.conan/data/zlib/1.2.8/lasote/stable/package/755fc07adbed235a7d3eadec4b6882d4912f09bc/include
+/home/phibedy/.conan/data/Boost/1.60.0/lasote/stable/package/87a6985fb1908109eaaba4c2838287defae1271c/include
+/home/phibedy/.conan/data/bzip2/1.0.6/lasote/stable/package/1dc495498881745765697cb6dda04bd63bec32e0/include
+/home/phibedy/.conan/data/zlib/1.2.8/lasote/stable/package/a79ecbb5554da8510d2c9d7856daeb24de6be0d9/include
 
 [libdirs]
-/home/phibedy/.conan/data/Boost/1.60.0/lasote/stable/package/c4df0be554903c44e6c8dfefcb3478121c08b785/lib
-/home/phibedy/.conan/data/bzip2/1.0.6/lasote/stable/package/3a5f72c8cd50641b8efa6ed13e6914c6ced2747c/lib
-/home/phibedy/.conan/data/zlib/1.2.8/lasote/stable/package/755fc07adbed235a7d3eadec4b6882d4912f09bc/lib
+/home/phibedy/.conan/data/Boost/1.60.0/lasote/stable/package/87a6985fb1908109eaaba4c2838287defae1271c/lib
+/home/phibedy/.conan/data/bzip2/1.0.6/lasote/stable/package/1dc495498881745765697cb6dda04bd63bec32e0/lib
+/home/phibedy/.conan/data/zlib/1.2.8/lasote/stable/package/a79ecbb5554da8510d2c9d7856daeb24de6be0d9/lib
 
 [bindirs]
-/home/phibedy/.conan/data/Boost/1.60.0/lasote/stable/package/c4df0be554903c44e6c8dfefcb3478121c08b785/bin
-/home/phibedy/.conan/data/bzip2/1.0.6/lasote/stable/package/3a5f72c8cd50641b8efa6ed13e6914c6ced2747c/bin
-/home/phibedy/.conan/data/zlib/1.2.8/lasote/stable/package/755fc07adbed235a7d3eadec4b6882d4912f09bc/bin
+/home/phibedy/.conan/data/Boost/1.60.0/lasote/stable/package/87a6985fb1908109eaaba4c2838287defae1271c/bin
+/home/phibedy/.conan/data/bzip2/1.0.6/lasote/stable/package/1dc495498881745765697cb6dda04bd63bec32e0/bin
+/home/phibedy/.conan/data/zlib/1.2.8/lasote/stable/package/a79ecbb5554da8510d2c9d7856daeb24de6be0d9/bin
 
 [libs]
 boost_unit_test_framework
@@ -50,7 +50,7 @@ bz2
 z
 
 [defines]
-BOOST_USE_STATIC_LIBS
+BOOST_ALL_DYN_LINK
 
 [cppflags]
 
@@ -66,13 +66,13 @@ BOOST_USE_STATIC_LIBS
 
 
 [includedirs_Boost]
-/home/phibedy/.conan/data/Boost/1.60.0/lasote/stable/package/c4df0be554903c44e6c8dfefcb3478121c08b785/include
+/home/phibedy/.conan/data/Boost/1.60.0/lasote/stable/package/87a6985fb1908109eaaba4c2838287defae1271c/include
 
 [libdirs_Boost]
-/home/phibedy/.conan/data/Boost/1.60.0/lasote/stable/package/c4df0be554903c44e6c8dfefcb3478121c08b785/lib
+/home/phibedy/.conan/data/Boost/1.60.0/lasote/stable/package/87a6985fb1908109eaaba4c2838287defae1271c/lib
 
 [bindirs_Boost]
-/home/phibedy/.conan/data/Boost/1.60.0/lasote/stable/package/c4df0be554903c44e6c8dfefcb3478121c08b785/bin
+/home/phibedy/.conan/data/Boost/1.60.0/lasote/stable/package/87a6985fb1908109eaaba4c2838287defae1271c/bin
 
 [libs_Boost]
 boost_unit_test_framework
@@ -109,7 +109,7 @@ boost_chrono
 boost_system
 
 [defines_Boost]
-BOOST_USE_STATIC_LIBS
+BOOST_ALL_DYN_LINK
 
 [cppflags_Boost]
 
@@ -124,17 +124,17 @@ BOOST_USE_STATIC_LIBS
 
 
 [rootpath_Boost]
-/home/phibedy/.conan/data/Boost/1.60.0/lasote/stable/package/c4df0be554903c44e6c8dfefcb3478121c08b785
+/home/phibedy/.conan/data/Boost/1.60.0/lasote/stable/package/87a6985fb1908109eaaba4c2838287defae1271c
 
 
 [includedirs_bzip2]
-/home/phibedy/.conan/data/bzip2/1.0.6/lasote/stable/package/3a5f72c8cd50641b8efa6ed13e6914c6ced2747c/include
+/home/phibedy/.conan/data/bzip2/1.0.6/lasote/stable/package/1dc495498881745765697cb6dda04bd63bec32e0/include
 
 [libdirs_bzip2]
-/home/phibedy/.conan/data/bzip2/1.0.6/lasote/stable/package/3a5f72c8cd50641b8efa6ed13e6914c6ced2747c/lib
+/home/phibedy/.conan/data/bzip2/1.0.6/lasote/stable/package/1dc495498881745765697cb6dda04bd63bec32e0/lib
 
 [bindirs_bzip2]
-/home/phibedy/.conan/data/bzip2/1.0.6/lasote/stable/package/3a5f72c8cd50641b8efa6ed13e6914c6ced2747c/bin
+/home/phibedy/.conan/data/bzip2/1.0.6/lasote/stable/package/1dc495498881745765697cb6dda04bd63bec32e0/bin
 
 [libs_bzip2]
 bz2
@@ -155,17 +155,17 @@ bz2
 
 
 [rootpath_bzip2]
-/home/phibedy/.conan/data/bzip2/1.0.6/lasote/stable/package/3a5f72c8cd50641b8efa6ed13e6914c6ced2747c
+/home/phibedy/.conan/data/bzip2/1.0.6/lasote/stable/package/1dc495498881745765697cb6dda04bd63bec32e0
 
 
 [includedirs_zlib]
-/home/phibedy/.conan/data/zlib/1.2.8/lasote/stable/package/755fc07adbed235a7d3eadec4b6882d4912f09bc/include
+/home/phibedy/.conan/data/zlib/1.2.8/lasote/stable/package/a79ecbb5554da8510d2c9d7856daeb24de6be0d9/include
 
 [libdirs_zlib]
-/home/phibedy/.conan/data/zlib/1.2.8/lasote/stable/package/755fc07adbed235a7d3eadec4b6882d4912f09bc/lib
+/home/phibedy/.conan/data/zlib/1.2.8/lasote/stable/package/a79ecbb5554da8510d2c9d7856daeb24de6be0d9/lib
 
 [bindirs_zlib]
-/home/phibedy/.conan/data/zlib/1.2.8/lasote/stable/package/755fc07adbed235a7d3eadec4b6882d4912f09bc/bin
+/home/phibedy/.conan/data/zlib/1.2.8/lasote/stable/package/a79ecbb5554da8510d2c9d7856daeb24de6be0d9/bin
 
 [libs_zlib]
 z
@@ -186,5 +186,5 @@ z
 
 
 [rootpath_zlib]
-/home/phibedy/.conan/data/zlib/1.2.8/lasote/stable/package/755fc07adbed235a7d3eadec4b6882d4912f09bc
+/home/phibedy/.conan/data/zlib/1.2.8/lasote/stable/package/a79ecbb5554da8510d2c9d7856daeb24de6be0d9
 
