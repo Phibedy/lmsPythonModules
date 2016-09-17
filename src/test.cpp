@@ -15,7 +15,7 @@ int main(){
                           "hello.close()",
                           main_namespace);
 
-    //boost::python::object result = boost::python::eval("5 ** 2");
+    boost::python::object result = boost::python::eval("5 ** 2");
 
 }
 
