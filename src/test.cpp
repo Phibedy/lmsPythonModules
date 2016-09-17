@@ -61,6 +61,9 @@ void moduleDataChannels(){
             exec(todo.c_str(),main_namespace);
             tmp = exec("m.cycle()",main_namespace);
         }
+        std::string resultWrite = extract<std::string>(eval("json.dumps(m.MY_WRITE_CHANNEL)",main_namespace));
+        std::cout <<resultWrite<<std::endl;
+
 
     }catch(error_already_set const &){
         // print all other errors to stderr

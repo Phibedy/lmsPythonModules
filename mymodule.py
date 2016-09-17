@@ -22,4 +22,5 @@ class MyModule(Module):
     def cycle(self):
         print("I am your python cycle")
         print("The data I have is %s"%(self.MY_READ_CHANNEL))
+        self.MY_WRITE_CHANNEL = self.MY_READ_CHANNEL*2
         return
