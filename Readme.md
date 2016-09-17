@@ -76,3 +76,12 @@ make[2]: *** [bin/test] Error 1
 make[1]: *** [CMakeFiles/test.dir/all] Error 2
 make: *** [all] Error 2
 ```
+
+The python lib (not sure how it is called) seems to be missing in:
+```boost_unit_test_framework;boost_prg_exec_monitor;boost_test_exec_monitor;boost_atomic;
+boost_container;boost_date_time;boost_exception;boost_filesystem;boost_graph;
+boost_iostreams;boost_locale;boost_log_setup;boost_log;boost_math_c99;boost_math_c99f;boost_math_c99l;
+boost_math_tr1;boost_math_tr1f;boost_math_tr1l;boost_program_options;boost_random;boost_regex;
+boost_wserialization;boost_serialization;boost_signals;boost_coroutine;boost_context;boost_wave;
+boost_timer;boost_thread;boost_chrono;boost_system;bz2;z```
+```
