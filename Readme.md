@@ -15,7 +15,12 @@ phibedy@phibedy--T530:~/Documents/programming/c++/lms/pythonTest/build$ cmake ..
 -- Detecting CXX compiler ABI info - done
 -- Current conanbuildinfo.cmake directory: /home/phibedy/Documents/programming/c++/lms/pythonTest
 -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython2.7.so (found version "2.7.6") 
-conan_libs: boost_unit_test_framework;boost_prg_exec_monitor;boost_test_exec_monitor;boost_atomic;boost_container;boost_date_time;boost_exception;boost_filesystem;boost_graph;boost_iostreams;boost_locale;boost_log_setup;boost_log;boost_math_c99;boost_math_c99f;boost_math_c99l;boost_math_tr1;boost_math_tr1f;boost_math_tr1l;boost_program_options;boost_random;boost_regex;boost_wserialization;boost_serialization;boost_signals;boost_coroutine;boost_context;boost_wave;boost_timer;boost_thread;boost_chrono;boost_system;bz2;z
+conan_libs: boost_unit_test_framework;boost_prg_exec_monitor;boost_test_exec_monitor;boost_atomic;
+boost_container;boost_date_time;boost_exception;boost_filesystem;boost_graph;
+boost_iostreams;boost_locale;boost_log_setup;boost_log;boost_math_c99;boost_math_c99f;boost_math_c99l;
+boost_math_tr1;boost_math_tr1f;boost_math_tr1l;boost_program_options;boost_random;boost_regex;
+boost_wserialization;boost_serialization;boost_signals;boost_coroutine;boost_context;boost_wave;
+boost_timer;boost_thread;boost_chrono;boost_system;bz2;z
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/phibedy/Documents/programming/c++/lms/pythonTest/build
@@ -70,4 +75,13 @@ collect2: error: ld returned 1 exit status
 make[2]: *** [bin/test] Error 1
 make[1]: *** [CMakeFiles/test.dir/all] Error 2
 make: *** [all] Error 2
+```
+
+The python lib (not sure how it is called) seems to be missing in:
+```boost_unit_test_framework;boost_prg_exec_monitor;boost_test_exec_monitor;boost_atomic;
+boost_container;boost_date_time;boost_exception;boost_filesystem;boost_graph;
+boost_iostreams;boost_locale;boost_log_setup;boost_log;boost_math_c99;boost_math_c99f;boost_math_c99l;
+boost_math_tr1;boost_math_tr1f;boost_math_tr1l;boost_program_options;boost_random;boost_regex;
+boost_wserialization;boost_serialization;boost_signals;boost_coroutine;boost_context;boost_wave;
+boost_timer;boost_thread;boost_chrono;boost_system;bz2;z```
 ```
