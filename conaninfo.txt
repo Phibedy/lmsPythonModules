@@ -1,0 +1,37 @@
+[settings]
+    arch=x86_64
+    build_type=Release
+    compiler=gcc
+    compiler.libcxx=libstdc++
+    compiler.version=4.8
+    os=Linux
+
+[requires]
+    Boost/1.Y.Z
+
+[options]
+
+
+[full_settings]
+    arch=x86_64
+    build_type=Release
+    compiler=gcc
+    compiler.libcxx=libstdc++
+    compiler.version=4.8
+    os=Linux
+
+[full_requires]
+    Boost/1.60.0@lasote/stable:c4df0be554903c44e6c8dfefcb3478121c08b785
+    bzip2/1.0.6@lasote/stable:3a5f72c8cd50641b8efa6ed13e6914c6ced2747c
+    zlib/1.2.8@lasote/stable:755fc07adbed235a7d3eadec4b6882d4912f09bc
+
+[full_options]
+    Boost:fPIC=False
+    Boost:header_only=False
+    Boost:shared=False
+    bzip2:fPIC=True
+    bzip2:shared=False
+    zlib:shared=False
+
+[scope]
+    dev=True
