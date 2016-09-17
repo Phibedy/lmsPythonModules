@@ -1,5 +1,6 @@
 [requires]
 Boost/1.60.0@lms/stable
+cereal/1.2-0@lms/stable
 
 [generators]
 txt
