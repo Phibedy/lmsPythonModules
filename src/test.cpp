@@ -51,13 +51,13 @@ void moduleDataChannels(){
         object tmp = exec("m = MyModule()",main_namespace);
         object readChannels = eval("m.getReadChannels()",main_namespace);
         object writeChannels = eval("m.getWriteChannels()",main_namespace);
-        std::string readChannel = extract<std::string>(readChannels);
-        std::cout<<"readChannel: "<<readChannel<<std::endl;
+        std::vector<std::string> readChannel = extract<std::vector<std::string>>(readChannels);
+        //std::cout<<"readChannel: "<<readChannel<<std::endl;
         std::cout<<"writeChannel: "<<(std::string)extract<std::string>(writeChannels)<<std::endl;
 
         //set read channel
         for(int i = 0; i < 10; i++){
-            std::string todo = "m."+readChannel+"="+std::to_string(i);
+            std::string todo = "m."+readChannel[0]+"="+std::to_string(i);
             exec(todo.c_str(),main_namespace);
             tmp = exec("m.cycle()",main_namespace);
         }

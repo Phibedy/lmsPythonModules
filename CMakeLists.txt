@@ -9,6 +9,9 @@ include_directories(${PYTHON_INCLUDE_DIRS})
 
 set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -Wall -Wextra -Wpedantic")
 
+
+add_subdirectory(python_module_container)
+
 add_executable(test src/test.cpp)
 add_executable(boostTest src/simple.cpp)
 target_link_libraries(test ${PYTHON_LIBRARY} ${CONAN_LIBS})
